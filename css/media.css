@@ -33,10 +33,6 @@
   #header ul li, #footer ul li {
     display: inline-block;
   }
-  /* #mobile-menu-container {
-    display: none;
-  }
- */
 }
 @media (max-width: 1520px) {
   h1 {
@@ -67,8 +63,14 @@
   }
 }
 @media(max-width: 767px) {
-  #logo {
-    padding: 40px 50px;
+  #logo, #footer {
+    padding: 40px;
+  }
+  #menu-toggle::before {
+    right: 40px;
+  }
+  .container {
+    width: 90%;
   }
   h1 {
     font-size: 36px;
