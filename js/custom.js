@@ -2,7 +2,8 @@ jQuery(function() {
 
 	// Toggle mobile menu active on click
 	jQuery('#menu-toggle').click(function(){
-		jQuery('#mobile-menu-container').toggleClass('active');
+		jQuery(this).find("i").toggleClass('fa-times');
+		jQuery(this).next("#mobile-menu").fadeToggle("fast");
 	});
 
 	// Set form password visibility 
@@ -25,9 +26,9 @@ jQuery(function() {
 	     setTimeout(function() {
 	      jQuery(".submit i").removeClass("loading fa-spinner fa-spin");
 	     /*document.getElementById("signup").reset();*/
-	     jQuery("#signup input, #signup button, #signup i, #signup terms").css('opacity','0'); 
+	     jQuery("#signup input, #signup button, #signup i, #signup .terms").css('opacity','0'); 
 	     jQuery("#signup .success-message").fadeIn(); 
-	    }, 5000);
+	    }, 3000);
 
 	});
 

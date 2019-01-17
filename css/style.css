@@ -31,9 +31,10 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
-a:hover, #menu-toggle:hover:before {
+a:hover, #menu-toggle:hover{
 	color: #2C99ED !important;
 	cursor: pointer;
+	cursor: hand;
 	transition: 0.2s;
 }
 .container {
@@ -74,18 +75,17 @@ a:hover, #menu-toggle:hover:before {
 }
 #menu-toggle {
 	text-align: right;
-}
-#menu-toggle::before {
-	font-family: FontAwesome;
-	content: "\f0c9";
 	display: inline-block;
-	font-size: 30px;
 	position: absolute;
 	top: 40px;
 	right: 60px;
 	z-index: 2;
 }
-.active #menu-toggle::before {
+#menu-toggle i {
+	display: inline-block;
+	font-size: 30px;
+}
+.active #menu-toggle i {
 	content: "\f00d";
 }
 #mobile-menu {
@@ -164,11 +164,11 @@ input:focus {
     margin-bottom: -25px;
     top: -37px;
     position: relative;
-    z-index: 2;
     color: #aaa;
 }
 .field-icon:hover {
 	cursor: pointer;
+	cursor: hand;
 }
 button[type="submit"] {
 	width: 100%;
