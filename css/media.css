@@ -63,7 +63,7 @@
   #logo, #footer {
     padding: 40px;
   }
-  #menu-toggle::before {
+  #menu-toggle {
     right: 40px;
   }
   .container {
