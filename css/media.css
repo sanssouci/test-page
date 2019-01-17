@@ -69,6 +69,9 @@
   #menu-toggle::before {
     right: 40px;
   }
+  .container {
+    width: calc(100% - 80px);
+  }
   h1 {
     font-size: 36px;
   }
