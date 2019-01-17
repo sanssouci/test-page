@@ -11,9 +11,6 @@
   .column {
     margin-left: 20%;
   }
-  .container .row {
-    margin-top: 20vh;
-  }
 }
 @media(min-width: 981px) {
   .container .row {

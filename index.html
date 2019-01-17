@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>Simple Way to Organize Your Inspirations | Stamp</title>
   <meta name="description" content="">
@@ -32,8 +29,6 @@
 </head>
 <body>
 <div id="overlay"></div>
- <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div id="header">
 	<div id="logo">
 		<a href="#"><img src="images/Stamp-Logo.png"></a>
@@ -82,11 +77,15 @@
 			<div class="form-heading">
 				Sign Up for Free
 			</div>
-			<form action="#" method="post">
+			<form id="signup" action="#" method="post">
 				<input name="name" placeholder="Name" required="" type="text"> 
 				<input name="email" placeholder="E-mail" required="" type="email"> 
 				<input name="password" placeholder="Password" required="" id="password-field" type="password" class="form-control"> <i toggle="#password-field" class="far fa-eye field-icon toggle-password" /></i>
-				<button name="Sign Up" type="submit">Sign up<i class="fas fa-chevron-right"></i></button>
+				<button name="Sign Up" class="submit" type="submit">Sign up<i class="fas fa-chevron-right"></i></button>
+				<div class="success-message">
+					<p class="headline">Thank you for signing up!</p>
+					<p>Please check your email for details about your new account. We are happy to have you as part of our mission!</p>
+				</div>
 			</form>
 			<div class="terms">
 				<p>By clicking "Sign up" I agree to our<br>
@@ -112,18 +111,10 @@
 			</li>
 		</ul>
 	</div>
-	<div id="copyright">
-		&copy; 
-		<script>
-		document.write(new Date().getFullYear());
-		</script> Stamp. All Rights Reserved.
-	</div>
-</div>
+	<div id="copyright"> &copy; <script> document.write(new Date().getFullYear()); </script> Stamp. All Rights Reserved. </div> </div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>
