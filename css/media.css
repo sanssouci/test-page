@@ -1,3 +1,4 @@
+/* --- RESPONSIVE STYLES --- */
 @media (min-height: 700px) and (min-width: 981px) {
   #footer {
     position: fixed;

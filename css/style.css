@@ -1,3 +1,4 @@
+/* --- OVERALL PAGE STYLES --- */
 html, body, #overlay {
 	height: 100%;
 	width: 100%;
@@ -37,17 +38,21 @@ a:hover, #menu-toggle:hover{
 	cursor: hand;
 	transition: 0.2s;
 }
-.container {
-	position: relative;
-	width: 80%;
-	max-width: 1280px;
-}
 .headline {
 	font-size: 22px;
 	color: rgba(255, 255, 255, 0.8);
 	line-height: 1.7;
 	margin: 0;
 }
+
+/* --- LAYOUT STYLES --- */
+.container {
+	position: relative;
+	width: 80%;
+	max-width: 1280px;
+}
+
+/* --- HEADER & MENU STYLES --- */
 #header {
 	position: relative;
 	width: 100%;
@@ -109,8 +114,8 @@ a:hover, #menu-toggle:hover{
 	font-size: 26px;
 	padding: 20px 0;
 }
-/* SIGN UP FORM */
 
+/* --- SIGN UP FORM STYLES --- */
 .sign-up-form {
 	text-align: center;
 	position: relative;
@@ -143,6 +148,9 @@ input:focus {
   border-color:  #1f75c8;
   background-color: rgba(0,0,0,0.05);
   transition: 0.2s;
+-webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important; 
+-webkit-focus-ring-color: rgba(255, 255, 255, 0) !important; 
+outline: none !important;
 }
 ::-webkit-input-placeholder { /* Chrome */
   color: #ccc;
@@ -207,8 +215,9 @@ button[type="submit"]:hover {
 	color: #9B9B9B;
 	line-height: 1.8em;
 }
-/* FOOTER */
 
+
+/* --- FOOTER STYLES --- */
 #footer {
 	box-sizing: border-box;
 	padding: 20px 60px;
