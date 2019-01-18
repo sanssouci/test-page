@@ -116,9 +116,8 @@ a:hover, #menu-toggle:hover{
 }
 
 /* --- SIGN UP FORM STYLES --- */
-#sign-up-form {
+#sign-up-col {
 	text-align: center;
-	position: relative;
 }
 .form-heading {
 	text-transform: uppercase;
