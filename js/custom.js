@@ -25,9 +25,8 @@ jQuery(function() {
 
         setTimeout(function() {
             jQuery(".submit i").removeClass("loading fa-spinner fa-spin");
-            /*document.getElementById("signup").reset();*/
-            jQuery("#signup input, #signup button, #signup i, #signup .terms").css('opacity', '0');
-            jQuery("#signup .success-message").fadeIn();
+            jQuery("#sign-up-form div, #sign-up-form form").hide();
+            jQuery(".success-message").fadeIn();
         }, 3000);
 
     });
